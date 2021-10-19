@@ -1,8 +1,8 @@
 ---
-title: "As intervenções no BRT da cidade do Rio de Janeiro"
+title: "As intervenções no sistema BRT na cidade do Rio de Janeiro"
 author: "Igor Laltuf Marques"
 institute: "IPPUR-UFRJ"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.Date(), '%d %m %Y')`" # format para colocar a data na ordem correta
 encoding: "UTF-8"
 output:
   xaringan::moon_reader:
@@ -15,37 +15,185 @@ output:
       ratio: 16:9
       countIncrementalSlides: true
 ---
-
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 # carrega o tema da apresentação
 library(xaringanthemer)
 style_mono_accent(
   base_color = "#1c5253",
   header_font_google = google_font("Josefin Sans"),
-  text_font_google   = google_font("Montserrat", "300", "300i"),
+  text_font_google   = google_font("Montserrat", "600", "300i"),
   code_font_google   = google_font("Fira Mono")
 )
 ```
 
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra()
+xaringanExtra::use_freezeframe(responsive = F) # função que permite carregar os gifs apenas quando o slide é aberto.
+```
+
+
 # Tópicos da apresentação
-1. Breve apresentação histórica das infraestruturas de transporte </br> público na cidade.
-2. Dados socioeconômicos da cidade
-3. A proposta do BRT
-4. A primeira intervenção: Governo Crivella (COLOCAR ANOS)
-5. A segunda intervenção e a Eduardo Paes (ANOS)
-6. COVID e suas implicações
----
-# Breve apresentação histórica das infraestruturas de transporte </br> público na cidade.
+
+1. O que é um Sistema BRT?;
+
+1. O contexto nacional da implementação do BRT;
+
+1. O contexto municipal da implementação do BRT;
+
+1. As condições de operação do BRT na cidade do Rio de Janeiro;
+
+1. A primeira intervenção: Marcelo Crivella (2019);
+
+1. A segunda intervenção: Eduardo Paes (2021); e
+
+1. COVID e suas implicações.
 
 ---
-## teste
+# O que é um Sistema BRT?
+
+- Vantagens: prazo e custo;
+
+- Adotado internacionalmente;
+
+- Características;
+
+- Projeto T5;
+
+---
+# Contexto Nacional da implementação do BRT
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+.panelset[
+.panel[.panel-name[Salário Mínimo Real]
+```{r, fig.align='center', out.width="70%", echo=FALSE}
+knitr::include_graphics(path="img/indicadores2.png") 
+
+```
+]
+.panel[.panel-name[Indicadores]
+```{r, fig.align='center', out.width="70%", echo=FALSE}
+knitr::include_graphics(path="img/indicadores1.png") 
+
+```
+]
+]
+---
+class:center
+# Contexto Nacional
+Contratações do BNDES em valores de 2021 </br>
+```{r, fig.align='center', out.width="100%", echo=FALSE}
+knitr::include_graphics(path="img/bndes_anim.gif") 
+```
+
+---
+# Contexto Municipal da implementação do BRT
+
+- Contexto do transporte público na cidade;
+
+- Alinhamento entre PMDB e PT nas três esferas;
+
+- Megaeventos; 
+
+- Crise no setor de ônibus; e
+
+- Desigualdade.
+
+---
+# Contexto Municipal da implementação do BRT
+Passageiros transportados pelo sistema de ônibus da cidade do Rio de Janeiro
+```{r echo=FALSE, out.width="80%"}
+knitr::include_url('./img/grafico_passageiros.html', height = 375)
+```
+<br>Fonte: Data Rio. Elaboração própria.
+
+---
+# Contexto Municipal da implementação do BRT
+#### Percentual de pessoas com renda até 5 salários mínimos em 2010 
+```{r echo=FALSE, out.width="90%"}
+knitr::include_url('./img/mapa_bairros_rj.html', height = 340)
+```
+<br>Fonte: Microdados do Censo de 2010 e Data Rio. Elaboração própria.
+
+
+---
+# As condições de operação do BRT 
+```{r, fig.align = 'center', out.width = "100%", echo = FALSE}
+knitr::include_graphics(path="img/gif-brt.gif") 
+
+```
+
+---
+# As condições de operação do BRT 
+
+## Problemas iniciais:
+
+- Licitação criativa;
+
+- Paper Company;
+
+---
+# As condições de operação do BRT 
+## Problemas da infraestrutura
+- Transolímpica;
+
+- Transoeste;
+
+- Transcarioca;
+
+- Inadequação do projeto arquitetônico das estações; e
+
+- Dimensionamento das estações.
+
+---
+# As condições de operação do BRT 
+## Problemas operacionais:
+
+
+
+
+
+
+---
+## Sobre a intervenção
+
+As intervenções são previstas em lei, conforme previsto no artigo 32 da lei nº 8.987/95 – a lei das concessões: 
+
+“Art. 32. O poder concedente poderá intervir na concessão, com o fim de assegurar a adequação na prestação do serviço, bem como o fiel cumprimento das normas contratuais, regulamentares e legais pertinentes.
+
+Parágrafo único. A intervenção far-se-á por decreto do poder concedente, que conterá a designação do interventor, o prazo da intervenção e os objetivos e limites da medida”.
+
+---
+
+
+
+
+
+
+# A primeira intervenção: Governo Crivella (COLOCAR ANOS) - decreto
+
+Ações desenvolvidas pela intervenção (obras e operação):
+Estratégias de longo prazo:42 – 43
+Estratégias de curto prazo: 44-45
+impactos financeiros do calote p45
+segurança p48
+recuperação da transoeste 48
+reformulação do setor
+
+# resultados
+
+
+---
+
+
+# A segunda intervenção e a Eduardo Paes (ANOS) - decreto 
+
+ausencia de um estudo (ver o termo correto, impossibilita os dados para dizer de onde vem a demanda e calcular contaminação de covid)
+
+MENCIONAR AQUELE ARTIGO SOBRE SUBSÌDIOS PARA CARROS VS ÔNIBUS
+
 
 # salvar o arquivo markdown para ver as alterações em slides novos
 como mudar o tamanho das imagens????
 ![brt](./img/brt-rio-lotado.jpg)
 Ônibus do BRT Rio - Foto: Domingos Peixoto/Agência O Globo
-
-
----
-teste
-
