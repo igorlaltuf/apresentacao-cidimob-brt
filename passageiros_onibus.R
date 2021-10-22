@@ -13,7 +13,7 @@ dados <- read_excel('dados/1736.xls', range = 'A7:P45') %>%
 p <- ggplot(data=dados, aes(x = ano, y = total/1000000)) +
   geom_line(color='blue', linetype = 'dashed') +
   geom_point(color='black') +
-  ylab('Total de passageiros transportados (em milhões)')+
+  ylab('Total de passageiros transportados')+
   scale_x_continuous(name = 'Ano', # dado do eixo x
                      limits = c(2000, 2020),  # valor m?ximo e m?nimo do eixo
                      n.breaks = 5) +

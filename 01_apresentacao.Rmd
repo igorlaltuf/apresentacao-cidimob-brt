@@ -36,17 +36,17 @@ xaringanExtra::use_freezeframe(responsive = F) # função que permite carregar o
 
 1. O que é um Sistema BRT?;
 
-1. O contexto nacional da implementação do BRT;
+1. O contexto nacional;
 
-1. O contexto municipal da implementação do BRT;
+1. O contexto municipal;
 
-1. As condições de operação do BRT na cidade do Rio de Janeiro;
+1. As condições de operação do BRT;
 
 1. A primeira intervenção: Marcelo Crivella (2019);
 
-1. A segunda intervenção: Eduardo Paes (2021); e
+1. Resultados da intervenção; e
 
-1. COVID e suas implicações.
+1. A COVID-19 e os impactos sobre o modal
 
 ---
 # O que é um Sistema BRT?
@@ -60,7 +60,7 @@ xaringanExtra::use_freezeframe(responsive = F) # função que permite carregar o
 - Projeto T5;
 
 ---
-# Contexto Nacional da implementação do BRT
+# Contexto Nacional
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
 ```
@@ -99,34 +99,26 @@ knitr::include_graphics(path="img/bndes_anim.gif")
 
 - Desigualdade.
 
----
-# Contexto Municipal da implementação do BRT
-Passageiros transportados pelo sistema de ônibus da cidade do Rio de Janeiro
-```{r echo=FALSE, out.width="80%"}
-knitr::include_url('./img/grafico_passageiros.html', height = 375)
-```
-<br>Fonte: Data Rio. Elaboração própria.
 
 ---
-# Contexto Municipal da implementação do BRT
+# Contexto Municipal
 #### Percentual de pessoas com renda até 5 salários mínimos em 2010 
 ```{r echo=FALSE, out.width="90%"}
 knitr::include_url('./img/mapa_bairros_rj.html', height = 340)
 ```
 <br>Fonte: Microdados do Censo de 2010 e Data Rio. Elaboração própria.
 
-
 ---
 # As condições de operação do BRT 
-```{r, fig.align = 'center', out.width = "100%", echo = FALSE}
+```{r, fig.align = 'center', out.width = "90%", echo = FALSE}
 knitr::include_graphics(path="img/gif-brt.gif") 
-
 ```
-
 ---
 # As condições de operação do BRT 
 
 ## Problemas iniciais:
+
+- Operação x Infraestrutura;
 
 - Licitação criativa;
 
@@ -134,7 +126,9 @@ knitr::include_graphics(path="img/gif-brt.gif")
 
 ---
 # As condições de operação do BRT 
-## Problemas da infraestrutura
+
+## Problemas da infraestrutura:
+
 - Transolímpica;
 
 - Transoeste;
@@ -149,51 +143,71 @@ knitr::include_graphics(path="img/gif-brt.gif")
 # As condições de operação do BRT 
 ## Problemas operacionais:
 
+- Queda da quantidade de ônibus em circulação;
 
+- Fim do monitoramento das linhas troncais;
 
+- Problemas no monitoramento dos ônibus articulados;
 
+- Relação RioCard e Consórcio Operacional BRT;
 
+- Furtos e danos ao patrimônio;
 
----
-## Sobre a intervenção
-
-As intervenções são previstas em lei, conforme previsto no artigo 32 da lei nº 8.987/95 – a lei das concessões: 
-
-“Art. 32. O poder concedente poderá intervir na concessão, com o fim de assegurar a adequação na prestação do serviço, bem como o fiel cumprimento das normas contratuais, regulamentares e legais pertinentes.
-
-Parágrafo único. A intervenção far-se-á por decreto do poder concedente, que conterá a designação do interventor, o prazo da intervenção e os objetivos e limites da medida”.
-
----
-
-
-
-
-
-
-# A primeira intervenção: Governo Crivella (COLOCAR ANOS) - decreto
-
-Ações desenvolvidas pela intervenção (obras e operação):
-Estratégias de longo prazo:42 – 43
-Estratégias de curto prazo: 44-45
-impactos financeiros do calote p45
-segurança p48
-recuperação da transoeste 48
-reformulação do setor
-
-# resultados
+- Evasão de receita (calote) e ordenamento;
 
 
 ---
 
+# A primeira intervenção: Governo Crivella (2019)
 
-# A segunda intervenção e a Eduardo Paes (ANOS) - decreto 
+- O que é uma intervenção?
 
-ausencia de um estudo (ver o termo correto, impossibilita os dados para dizer de onde vem a demanda e calcular contaminação de covid)
+- Argumentos apontados pelos dirigentes do Consórcio Operacional BRT;
 
-MENCIONAR AQUELE ARTIGO SOBRE SUBSÌDIOS PARA CARROS VS ÔNIBUS
+- Estratégias de Longo Prazo; e
+
+- Estratégias de Curto Prazo.
 
 
-# salvar o arquivo markdown para ver as alterações em slides novos
-como mudar o tamanho das imagens????
-![brt](./img/brt-rio-lotado.jpg)
-Ônibus do BRT Rio - Foto: Domingos Peixoto/Agência O Globo
+---
+# Resultados da intervenção
+<br>
+<br>
+<font size="7"> 
+<p style="text-align: center">
+Apenas 3 dos 11 pontos que constam no Termo de Compromisso assinado pelo <br> Consórcio Operacional BRT foram cumpridos. 
+</p>
+</font>
+
+---
+# A COVID-19 e os impactos sobre o modal
+### Passageiros transportados pelo sistema de ônibus da cidade do Rio de Janeiro (em milhões)
+```{r echo=FALSE, out.width="80%"}
+knitr::include_url('./img/grafico_passageiros.html', height = 340)
+```
+<br>Fonte: Data Rio. Elaboração própria.
+
+---
+# A COVID-19 e os impactos sobre o modal
+```{r, fig.align = 'center', out.width = "70%", echo = FALSE}
+knitr::include_graphics(path="img/brt-rio-lotado.jpg") 
+
+```
+<p style="text-align: center">Ônibus do BRT Rio - Foto: Domingos Peixoto/Agência O Globo</p>
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<font size="7"> 
+<p style="text-align: center">
+Obrigado. 
+</p>
+</font size>
+<p style="text-align: center">
+https://igorlaltuf.github.io/
+</p>
