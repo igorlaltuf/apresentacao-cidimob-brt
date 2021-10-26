@@ -1,5 +1,5 @@
 ---
-title: "As intervenções no sistema BRT na cidade do Rio de Janeiro"
+title: "A interveção no sistema BRT da cidade do Rio de Janeiro"
 author: "Igor Laltuf Marques"
 institute: "IPPUR-UFRJ"
 date: "`r format(Sys.Date(), '%d %m %Y')`" # format para colocar a data na ordem correta
@@ -42,9 +42,9 @@ xaringanExtra::use_freezeframe(responsive = F) # função que permite carregar o
 
 1. As condições de operação do BRT;
 
-1. A primeira intervenção: Marcelo Crivella (2019);
+1. A intervenção de Crivella (2019);
 
-1. Resultados da intervenção; e
+1. Os resultados da intervenção; e
 
 1. A COVID-19 e os impactos sobre o modal
 
@@ -58,6 +58,21 @@ xaringanExtra::use_freezeframe(responsive = F) # função que permite carregar o
 - Características;
 
 - Projeto T5;
+
+---
+# Contexto Nacional
+
+Momentos do Governo Federal:
+
+- Manutenção dos pilares neoliberais (2003-2005);
+
+- “Momento desenvolvimentista” (2006-2010); 
+
+- Mix de políticas heterodoxas e ortodoxas (2011-2014);
+
+- Retorno à ortodoxia econômica (2015-2016).
+
+Crise Financeira internacional.
 
 ---
 # Contexto Nacional
@@ -116,7 +131,7 @@ knitr::include_graphics(path="img/gif-brt.gif")
 ---
 # As condições de operação do BRT 
 
-## Problemas iniciais:
+## Características de como o BRT é operado:
 
 - Operação x Infraestrutura;
 
@@ -158,7 +173,7 @@ knitr::include_graphics(path="img/gif-brt.gif")
 
 ---
 
-# A primeira intervenção: Governo Crivella (2019)
+# A intervenção de Crivella (2019)
 
 - O que é uma intervenção?
 
@@ -170,7 +185,7 @@ knitr::include_graphics(path="img/gif-brt.gif")
 
 
 ---
-# Resultados da intervenção
+# Os resultados da intervenção
 <br>
 <br>
 <font size="7"> 
@@ -181,7 +196,7 @@ Apenas 3 dos 11 pontos que constam no Termo de Compromisso assinado pelo <br> Co
 
 ---
 # A COVID-19 e os impactos sobre o modal
-### Passageiros transportados pelo sistema de ônibus da cidade do Rio de Janeiro (em milhões)
+#### Passageiros transportados pelo sistema de ônibus da cidade do Rio de Janeiro (em milhões)
 ```{r echo=FALSE, out.width="80%"}
 knitr::include_url('./img/grafico_passageiros.html', height = 340)
 ```
